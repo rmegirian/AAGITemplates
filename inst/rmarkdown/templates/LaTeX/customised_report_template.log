@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.15)  23 JUL 2024 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.15)  23 JUL 2024 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/293558J/OneDrive - Curtin/Documents/CBADA/AAGITemplates/inst/rmarkdown/templates/LaTeX/report.tex"
-(c:/Users/293558J/OneDrive - Curtin/Documents/CBADA/AAGITemplates/inst/rmarkdown/templates/LaTeX/report.tex
+**"c:/Users/293558J/OneDrive - Curtin/Documents/CBADA/AAGITemplates/inst/rmarkdown/templates/LaTeX/customised_report_template.tex"
+(c:/Users/293558J/OneDrive - Curtin/Documents/CBADA/AAGITemplates/inst/rmarkdown/templates/LaTeX/customised_report_template.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -774,8 +774,8 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box90
-) (./report.aux)
-\openout1 = `report.aux'.
+) (./customised_report_template.aux)
+\openout1 = `customised_report_template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -815,9 +815,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 66.
- (./report.out) (./report.out)
+ (./customised_report_template.out) (./customised_report_template.out)
 \@outlinefile=\write5
-\openout5 = `report.out'.
+\openout5 = `customised_report_template.out'.
 
 
 *geometry* driver: auto-detecting
@@ -940,14 +940,14 @@ Package pdftex.def Info: assets/Partners.pdf  used on input line 108.
 (pdftex.def)             Requested size: 597.50787pt x 85.14807pt.
  [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc} <./assets/AAGI_logo.pdf> <./assets/Partners.pdf>] (./report.toc
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc} <./assets/AAGI_logo.pdf> <./assets/Partners.pdf>] (./customised_report_template.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 1.
 )
 \tf@toc=\write6
-\openout6 = `report.toc'.
+\openout6 = `customised_report_template.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -973,26 +973,26 @@ Overfull \hbox (9.99524pt too wide) in paragraph at lines 137--141
 
 ] [7
 
-] (./report.bbl) [8
+] (./customised_report_template.bbl) [8
 
-] (./report.aux)
+] (./customised_report_template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-Package rerunfilecheck Info: File `report.out' has not changed.
+Package rerunfilecheck Info: File `customised_report_template.out' has not changed.
 (rerunfilecheck)             Checksum: 3205E7923E3394DFF6CD94609D511C80;1531.
  ) 
 Here is how much of TeX's memory you used:
  32967 strings out of 474103
- 644684 string characters out of 5747481
+ 645264 string characters out of 5747481
  1933496 words of memory out of 5000000
  54706 multiletter control sequences out of 15000+600000
  614478 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,11n,99p,1293b,928s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,99p,1313b,928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on report.pdf (9 pages, 198382 bytes).
+Output written on customised_report_template.pdf (9 pages, 198765 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams

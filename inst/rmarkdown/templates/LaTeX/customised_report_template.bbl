@@ -1,0 +1,8 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Person}{Person}{2024}]{blah}
+Person, M. (2024).
+\newblock My article title goes here.
+\newblock {\em My Journal} {\bf 13,} pp.~12--34.
+
+\end{thebibliography}
